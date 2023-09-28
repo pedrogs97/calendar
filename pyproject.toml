@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "calendar-api"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Gustavo Santana <pedrogustavosantan97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.3.3"
+flask-sqlalchemy = "^3.1.1"
+flask-openapi3 = "^2.5.2"
+pydantic = "=1.10.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
